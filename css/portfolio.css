@@ -1,0 +1,14 @@
+/* ------------------- портфолио------------------- */
+.btn-filter {
+  background-color: var(--btn-filter-bcg);
+  color: var(--headline-black-color);
+  border: none;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+}
+.portfolio-headline {
+  color: var(--headline-black-color);
+}

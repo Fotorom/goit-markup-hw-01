@@ -1,0 +1,61 @@
+:root {
+  --headline-black-color: #212121;
+  --main-black-color: #757575;
+  --main-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --logo-black-color: #000000;
+  --btn-filter-bcg: #f5f4fa;
+}
+head,
+body {
+  color: var(--main-black-color);
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* -------------------логотип------------------------ */
+.logo {
+  color: var(--logo-black-color);
+  font-size: 26px;
+}
+.logo-indent {
+  color: var(--accent-color);
+}
+
+/* --------------------- навигация -----------------------*/
+.nav-link {
+  color: var(--headline-black-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link.active {
+  color: var(--accent-color);
+}
+.nav-contact {
+  color: var(--main-black-color);
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--accent-color);
+}
+/* --------------------- btn-------------------- */
+.btn {
+  background-color: var(--accent-color);
+  color: var(--main-white-color);
+  border: none;
+}
+/* ----------------- футер -------------------- */
+.footer-logo {
+  color: var(--main-white-color);
+}
+.address {
+  color: var(--main-white-color);
+}
+.footer-contact {
+  color: var(--main-black-color);
+}
