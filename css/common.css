@@ -9,6 +9,8 @@
 head,
 body {
   color: var(--main-black-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 ul {
   list-style-type: none;
@@ -19,13 +21,23 @@ a {
 /* -------------------логотип------------------------ */
 .logo {
   color: var(--logo-black-color);
+  font-family: 'Raleway';
+  font-weight: 700;
   font-size: 26px;
+  line-height: 1.2;
 }
 .logo-indent {
   color: var(--accent-color);
 }
 
 /* --------------------- навигация -----------------------*/
+.nav {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
 .nav-link {
   color: var(--headline-black-color);
 }
@@ -38,6 +50,11 @@ a {
 }
 .nav-contact {
   color: var(--main-black-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
 .nav-contact:hover,
 .nav-contact:focus {
@@ -48,14 +65,27 @@ a {
   background-color: var(--accent-color);
   color: var(--main-white-color);
   border: none;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* ----------------- футер -------------------- */
 .footer-logo {
   color: var(--main-white-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .address {
   color: var(--main-white-color);
+  font-size: 14px;
+  line-height: 24px;
 }
 .footer-contact {
   color: var(--main-black-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
